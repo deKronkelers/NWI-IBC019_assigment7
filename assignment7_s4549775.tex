@@ -42,9 +42,31 @@
 		\end{description}
 
 		\item %b
+		\begin{tabular}{|r|c|c|c|c|c|}
+			\hline
+			process & P1 & P2 & P3 & P4 & P5\\
+			\hline
+			arrival time & 0 & 2 & 6 & 16 & 20\\
+			service time & 4 & 12 & 8 & 6 & 10\\
+			\hline
+			\multicolumn{6}{|c|}{Shortest Process Next}\\
+			\hline
+			finish time & & & & & \\
+			turnaround time & & & & & \\
+			ratio & & & & & \\
+			\hline
+			\multicolumn{6}{|c|}{Shortest Remaining Time}\\
+			\hline
+			finish time & & & & & \\
+			turnaround time & & & & & \\
+			ratio & & & & & \\
+			\hline
+		\end{tabular}
 	\end{enumerate}
 
 \section*{9.6}
+The Feedback algorithm is quantum based. Each process gets to run a quantum before being shifted down in priority. The first scenario (shown in Figure 9.5) could be achieved by setting $q = 2$ and the second one by setting $q = 3$.
+
 \section*{9.7}
 
 \end{document}
